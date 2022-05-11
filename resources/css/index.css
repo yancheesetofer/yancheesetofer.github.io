@@ -1,0 +1,82 @@
+.navbar{
+    background-color: #abeedc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    z-index:2;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 10px 20px;
+    color: navy;
+}
+
+.navbar li:hover{
+    filter: drop-shadow(0.5px 0.5px 0.5px black);
+
+}
+
+a.blue{
+    color: #34568B;
+}
+
+h1{
+    font-family: 'R-Flex';
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    background-color: #34568B;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+
+}
+
+#webthree {
+    height: 200px;
+    width: 200px;
+    filter: drop-shadow(2px 2px 2px black);
+    z-index: 0;
+}
+
+#grittyYan{
+    color: #53857a;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+#grittyYan:hover{
+    color: #282049;
+}
+.funsection{
+    padding: 20px 50px;
+}
+#greets ul{
+    list-style-type: none;
+}
+#greets ul li{
+    background-image: url('../images/web3.png');
+    background-size: cover;
+    width: 245px;
+    height: 245px;
+    padding: 10px 20px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.funsection{
+    background-color: #edf1f4;
+}
